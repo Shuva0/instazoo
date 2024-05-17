@@ -1,0 +1,161 @@
+{
+  "lion": {
+    "name": "Mr.Lion",
+    "tag": "he / Embrace Your Inner Majesty",
+    "desc": "Regal and commanding, the lion reigns supreme as the king of the jungle, exuding strength, courage, and leadership. With its mane flowing like a crown, it embodies the epitome of majesty and power. Embrace the lion's noble spirit within you, embodying the qualities of resilience, authority, and integrity. Like the lion leading its pride with unwavering confidence, step into your own sovereignty, fearlessly navigating life's trials and triumphs with the grace and dignity befitting a true ruler.",
+    "profileImg": "https://i.natgeofe.com/n/5077a51b-c6c4-4a5f-bd03-28e517412d8f/higts_southafrica_8502902-Edit_HR_square.jpg",
+    "posts": [
+      {
+        "img": "https://africanlions.org/wp-content/uploads/2015/12/1500x1000-watermark-lion-golden-mane-02.jpg",
+        "likes": "23000",
+        "comments": "1289"
+      },
+      {
+        "img": "https://www.shutterstock.com/image-photo/big-lion-lying-on-savannah-600nw-161967581.jpg",
+        "likes": "21000",
+        "comments": "109"
+      },
+      {
+        "img": "https://th-thumbnailer.cdn-si-edu.com/MFb-4atIhJvWT-OwqdbqjIm74nk=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/5e/c4/5ec48309-6142-430d-a0a1-c82bb15597c7/42-22992426.jpg",
+        "likes": "19000",
+        "comments": "1809"
+      },
+      {
+        "img": "https://cdn.britannica.com/29/150929-050-547070A1/lion-Kenya-Masai-Mara-National-Reserve.jpg",
+        "likes": "9000",
+        "comments": "589"
+      },
+      {
+        "img": "https://animalfactguide.com/wp-content/uploads/2020/12/lion.jpg",
+        "likes": "29000",
+        "comments": "1989"
+      },
+      {
+        "img": "https://files.worldwildlife.org/wwfcmsprod/images/pc_honorable_mention_lion_nat_hab_photo_contest_2017/magazine_small/8kd8qhz2do_Lion_King.jpg",
+        "likes": "1000",
+        "comments": "1889"
+      },
+      {
+        "img": "https://africanhuntinggazette.com/wp-content/uploads/2021/11/shutterstock_190325147-1080x675.jpg",
+        "likes": "32000",
+        "comments": "1229"
+      },
+      {
+        "img": "https://static.scientificamerican.com/sciam/cache/file/5B54CF06-0CA5-4146-88AD8ADB7C491BB3_source.jpg?w=1200",
+        "likes": "3000",
+        "comments": "289"
+      },
+      {
+        "img": "https://media.4-paws.org/3/a/d/4/3ad462583b2d8e56694df29d42947488afac48d3/VIER%20PFOTEN_2012-05-15_002%20%281%29-1927x1333-1920x1328.jpg",
+        "likes": "22000",
+        "comments": "1289"
+      }
+    ]
+  },
+  "tiger": {
+    "name": "Tiger Bro",
+    "tag": "he / Unleash Your Inner Strength",
+    "desc": "Majestic and powerful, the tiger embodies strength, courage, and resilience. With its piercing gaze and silent prowling, it symbolizes the ability to confront adversity head-on and emerge victorious. Channel the indomitable spirit of the tiger within you, harnessing your inner strength to overcome obstacles and seize opportunities. In the face of challenges, let the tiger's ferocity inspire you to persevere and thrive, roaring with determination as you stride towards your goals.",
+    "profileImg": "https://t3.ftcdn.net/jpg/06/61/03/36/360_F_661033620_Lq2Uf04G6tx6g7OZYsc7AJjG9hG2pc6d.jpg",
+    "posts": [
+      {
+        "img": "https://static.vecteezy.com/system/resources/previews/031/725/261/large_2x/profile-portrait-of-bengal-tiger-ai-generative-free-photo.jpg",
+        "likes": "23000",
+        "comments": "1289"
+      },
+      {
+        "img": "https://st2.depositphotos.com/11535342/46802/i/450/depositphotos_468024992-stock-photo-tiger-face-profile-animal-abstract.jpg",
+        "likes": "21000",
+        "comments": "109"
+      },
+      {
+        "img": "https://c4.wallpaperflare.com/wallpaper/890/916/877/tiger-profile-handsome-hd-wallpaper-preview.jpg",
+        "likes": "19000",
+        "comments": "1809"
+      },
+      {
+        "img": "https://media.istockphoto.com/id/532856272/photo/bengal-tiger-in-grass.jpg?s=612x612&w=0&k=20&c=se4Vja9SS1R_wZgHrMYkEm7CndqTv-BpDNucnjnzdIQ=",
+        "likes": "9000",
+        "comments": "589"
+      },
+      {
+        "img": "https://images.pexels.com/photos/148868/pexels-photo-148868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "likes": "29000",
+        "comments": "1989"
+      },
+      {
+        "img": "https://images.pexels.com/photos/16878234/pexels-photo-16878234/free-photo-of-close-up-of-a-tiger-in-the-wild.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "likes": "1000",
+        "comments": "1889"
+      },
+      {
+        "img": "https://thumbs.dreamstime.com/b/tiger-walking-6502952.jpg",
+        "likes": "32000",
+        "comments": "1229"
+      },
+      {
+        "img": "https://cdn.create.vista.com/api/media/small/151209450/stock-photo-portrait-of-a-siberian-tiger",
+        "likes": "3000",
+        "comments": "289"
+      },
+      {
+        "img": "https://media.istockphoto.com/id/92235881/photo/tiger.jpg?s=612x612&w=0&k=20&c=v97mPkD0Bm2O4JxHxJ8w0d-JsMDKEo-QQCbGzcT7-6E=",
+        "likes": "22000",
+        "comments": "1289"
+      }
+    ]
+  },
+  "peacock": {
+    "name": "Peacock",
+    "tag": "she / Radiate Your True Colors",
+    "desc": "Vibrant and mesmerizing, the peacock dazzles with its kaleidoscopic plumage, a testament to its innate beauty and confidence. With each graceful strut, it proudly displays its vivid array of colors, embracing its uniqueness with unwavering self-assurance. Emulate the peacock's boldness and authenticity, unleashing your true essence upon the world. Just as the peacock's iridescent feathers catch the eye of all who behold them, let your inner light shine brightly, illuminating the world with your distinctive talents, passions, and aspirations.",
+    "profileImg": "https://preview.redd.it/peacock-profile-artwork-v0-fv71c56q7qeb1.jpg?width=640&crop=smart&auto=webp&s=b3d0a69b91a59cb0f54e2ad9f2d53a0bd3ac69ca",
+    "posts": [
+      {
+        "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73b3bf4d-d9ee-484e-9dd0-88f1002f2e0f/d4xjwrm-375f9e49-cfe3-4c1b-9403-9e6cbee1767b.jpg/v1/fill/w_1024,h_768,q_75,strp/peacock_parade_by_windydy_d4xjwrm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvNzNiM2JmNGQtZDllZS00ODRlLTlkZDAtODhmMTAwMmYyZTBmXC9kNHhqd3JtLTM3NWY5ZTQ5LWNmZTMtNGMxYi05NDAzLTllNmNiZWUxNzY3Yi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GXnP5hYoK_G9duguC1778IidRamY_qegCH8oSmDGVnE",
+        "likes": "23000",
+        "comments": "1289"
+      },
+      {
+        "img": "https://media.istockphoto.com/id/1161355738/photo/a-peacock-sitting-on-a-tree-branch.jpg?s=612x612&w=0&k=20&c=vTEF0n4LXPpP5UgGPIUpHGWgyXPAYWeKXBOA24C2D2E=",
+        "likes": "21000",
+        "comments": "109"
+      },
+      {
+        "img": "https://www.marylandzoo.org/wp-content/uploads/2018/09/peafowlprofileheader-1024x683.jpg",
+        "likes": "19000",
+        "comments": "1809"
+      },
+      {
+        "img": "https://www.potawatomizoo.org/wp-content/uploads/2018/03/prince-peacock-pretty.jpg",
+        "likes": "9000",
+        "comments": "589"
+      },
+      {
+        "img": "https://www.zoomontana.org/images/img_3QMX4dKDQWbWEB1K5mLAa1/peacock.jpg?fit=outside&w=1600",
+        "likes": "29000",
+        "comments": "1989"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/4f/2e/b4/4f2eb412fddfae3fc301b392dd690a20.jpg",
+        "likes": "1000",
+        "comments": "1889"
+      },
+      {
+        "img": "https://cdn.britannica.com/37/154237-050-A76A506D/blue-peafowl-tail-Indian-peacock-courtship-displays.jpg",
+        "likes": "32000",
+        "comments": "1229"
+      },
+      {
+        "img": "https://www.birdadvisors.com/wp-content/uploads/elementor/thumbs/peacock-p5zdo8e4b14q3jy7uyg0fxbwagt9164vi72mqsw3y8.jpg",
+        "likes": "3000",
+        "comments": "289"
+      },
+      {
+        "img": "https://thumbs.dreamstime.com/b/twin-peacocks-two-male-showing-their-true-colors-31460566.jpg",
+        "likes": "22000",
+        "comments": "1289"
+      }
+    ]
+  }
+}

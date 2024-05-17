@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - InstaZoo</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar" id="navbar" tabindex="-1">
+      <div class="leftNav">
+        <h3 class="siteTitle">InstaZoo</h3>
+      </div>
+      <div class="rightNav">
+        <h5 class="menuItems"><a href="#">Home</a></h5>
+        <h5 class="menuItems"><a href="#">About us</a></h5>
+        <h5 class="menuItems"><a href="#">Visit Zoo</a></h5>
+        <h5 class="menuItems">
+          <a href="#">Login</a> / <a href="" #>Register</a>
+          <i class="fa-solid fa-arrow-right-to-bracket loginIcon"></i>
+        </h5>
+      </div>
+    </header>
+    <div class="heroSection">
+      <h1>Find your <span class="favourite">Favourite</span> Animal ?</h1>
+      <form id="animalForm" action="/search" method="post">
+        <input
+          type="text"
+          id="animalForm"
+          placeholder="Search Your Favourite Animal"
+          name="animalForm"                                                                                                                                                      "
+          required aria-required="true"
+        />
+        <button type="submit" >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form><a href="#profile"><img src="Assets/Scroll-Down-icon-Home (2).gif" alt="" class="tabDownImg"></a>
+    </div>
+    <div class="profile" id="profile" tabindex="-1">
+      <div class="profileBox">
+        <div class="leftProfile">
+          <div class="profileImage">
+              <% if (data && data.profileImg) { %>
+                <img src="<%= data.profileImg %>" alt="Profile Picture" />
+              <% } else { %>
+                <p>profile Img not founded</p>
+              <% } %>
+          </div>
+        </div>
+        <div class="rightProfile">
+          <div class="profileHeader">
+            <% if (data && data.name) { %>
+              <h4 class="profileName"><%= data.name %></h4>
+            <% } else { %>
+              <p>Name not founded</p>
+            <% } %>
+            <div class="sideHeader">
+              <button>Edit Profile</button>
+              <button>View Archive</button>
+              <i class="fa-solid fa-gear settingIcon"></i>
+            </div>
+          </div>
+          <h4 class="tagLine"><%= data.tag %></h4>
+          <div class="desc">
+            <p><%= data.desc %></p>
+          </div>
+        </div>
+        <div class="profileLine"></div>
+      </div>
+      </div>
+      <div class="postsSection">
+      <div class="allPosts">
+      <% const post = data.posts; %> <% post.forEach(element=>{ %>
+        <div class="post">
+          <img src="<%= element.img %>" alt="Photo hai" />
+          <p>
+            <i class="fa-regular fa-heart heartIcon"></i> : <%= element.likes %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa-regular fa-comment commentIcon"></i> : <%= element.comments %>
+          </p>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+    <div class="upperTab"><a href="#navbar" class="a"><i class="fa-solid fa-angle-up"></i></a></div>
+    <footer>
+      &copy; 2024 InstaZoo from Shuva Patra
+    </footer>
+    </div>
+
+    
+    <script>
+      
+    </script>
+  </body>
+</html>

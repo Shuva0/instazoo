@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  /* background-color: black; */
+}
+header {
+  height: 10vh;
+  width: 100%;
+  padding: 0 12vh 0 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftNav .siteTitle {
+  font-size: 1.6vw;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #da6b23;
+}
+.rightNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.8vw;
+}
+.rightNav .menuItems a {
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+}
+.rightNav .loginIcon {
+  color: #da6b23;
+  margin: 0 1vw 0 1vw;
+  font-size: 1.2vw;
+}
+.rightNav .menuItems a:hover {
+  color: #da6b23;
+  transition: all 0.2s ease-in-out;
+  scale: 0.9;
+}
+.heroSection {
+  width: 100%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("Assets/heroSectionbg.jpg") no-repeat center center;
+  background-size: cover;
+}
+.heroSection h1 {
+  color: #ffff;
+  font-weight: 600;
+  padding-bottom: 1.2vw;
+}
+.favourite {
+  color: #da6b23;
+}
+form #animalForm {
+  height: 4.2vw;
+  width: 32vw;
+  padding: 1.4vw;
+  outline: none;
+  border-radius: 0.6vw 0 0 0.6vw;
+  font-size: 15px;
+  border: none;
+}
+form button {
+  border: none;
+  border-radius: 0 0.6vw 0.6vw 0;
+  padding: 1.24vw 2vw 1.39vw 2vw;
+  background-color: #da6b23;
+}
+form button:hover{
+  cursor: pointer;
+  background-color: #C27352;
+}
+form button i {
+  font-size: 1.4vw;
+  color: white;
+}
+.heroSection a .tabDownImg{
+  position: absolute;
+  bottom: 220px;
+  left: 700px;
+  width: 8vw;
+}
+.profile {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile .profileBox {
+  width: 80vw;
+  height: 45vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffff;
+  border-radius: 1.2vw;
+  box-shadow: 1vw 0.6vw 30vw 2vw #0707070c;
+  position: relative;
+}
+.profileBox .leftProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+.leftProfile .profileImage img {
+  width: 12vw;
+  border-radius: 100%;
+}
+.profileBox .rightProfile {
+  width: 70%;
+  height: 100%;
+  padding: 2vw 2vw 2vw 2vw;
+  /* position: relative; */
+  /* background-color: #da6b23; */
+}
+.rightProfile .profileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  height: 10vh;
+  /* background-color: aquamarine; */
+}
+.profileHeader .profileName {
+  color: #1e1e1e;
+  font-size: 1.8vw;
+  font-weight: 600;
+  /* padding: 0;
+  margin: 0; */
+}
+.profileHeader .sideHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.4vw;
+}
+.profileHeader button {
+  padding: 0.8vw;
+  border-radius: 0.6vw;
+  font-size: 1vw;
+  font-weight: 500;
+  border: none;
+  color: #ffff;
+  background-color: #0b544b;
+}
+.sideHeader .settingIcon {
+  font-size: 2.4vw;
+  color: #0b544b;
+}
+.tagLine {
+  height: 5vh;
+  color: #da6b23;
+  font-size: 1vw;
+}
+.profileLine {
+  background-color: #b0b0b0;
+  width: 1px;
+  height: 200px;
+  top: 60px;
+  left: 340px;
+  position: absolute;
+}
+/* Profile work is left |   */
+
+.postsSection{
+  display: flex;
+  justify-content: center;
+}
+.allPosts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  width: 90vw;
+  /* height: 100vh; */
+  padding: 2vw;
+  gap: 2vw;
+  /* background-color: black; */
+}
+
+.post {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  background-color: #0000;
+  padding: 2vw 1vw ;
+  border-radius: 12px;
+  box-shadow: 1vw 0.6vw 30vw 2vw #0707070c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+} 
+.post img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.commentIcon:hover{
+  color: #da6b23;
+  cursor: pointer;
+}
+.heartIcon:hover{
+  color: #da6b23;
+  cursor: pointer;
+}
+
+
+/* footer */
+footer{
+  margin-top: 4vh;
+  height: 8vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.upperTab .a{
+  position: fixed;
+  bottom: 5vh;
+  right: 3vw;
+  font-size: 1.2vw;
+  background-color: #da6b23;
+  color: #ffff;
+  padding: 0.6vw 1vw;
+  border-radius: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.upperTab .a:hover{
+  background-color: #0b544b;
+
+}
